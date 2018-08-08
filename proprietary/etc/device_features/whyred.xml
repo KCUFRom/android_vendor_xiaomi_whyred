@@ -245,6 +245,7 @@
         <item>com.miui.yellowpage</item>
         <item>com.xiaomi.midrop</item>
         <item>com.android.midrive</item>
+        <item>com.xiaomi.drivemode</item>
     </string-array>
     <!--system data-app path list -->
     <string-array name="system_data_path_list">
@@ -265,7 +266,10 @@
         <item>/system/data-app/YellowPage/YellowPage.apk</item>
         <item>/system/data-app/MiDrop/MiDrop.apk</item>
         <item>/system/data-app/MiDrive/MiDrive.apk</item>
+        <item>/system/data-app/MiuiDriveMode/MiuiDriveMode.apk</item>
     </string-array>
+    <!-- whether camera support AI lens entry -->
+    <bool name="camera_support_ai_lens">true</bool>
     <!--whether show my device-->
     <bool name="support_my_device">true</bool>
     <!--whether round corner-->
@@ -309,4 +313,10 @@
     <integer name="support_camera_front_hdr_default_value">1</integer>
     <!--whether camera support portrait mode switch -->
     <bool name="camera_is_support_portrait_switch">true</bool>
+    <!--whether process clcc in hfp pending state-->
+    <bool name="process_clcc_in_pending_state">false</bool>
+    <!-- device sar value -->
+    <float name="device_sar">1.188</float>
+    <!--whether support freeform mode in game mode-->
+    <bool name="support_freeform_reply">true</bool>
 </features>
